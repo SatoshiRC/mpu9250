@@ -56,12 +56,3 @@ void tim_internal(){
 	HAL_GPIO_WritePin(GPIOC , GPIO_PIN_13 , GPIO_PIN_SET);
 }
 
-/*void HAL_TIM_TriggerCallback(TIM_HandleTypeDef *htim)
-{
-  Prevent unused argument(s) compilation warning
- tim_internal();
-
-  NOTE : This function Should not be modified, when the callback is needed,
-           the HAL_TIM_TriggerCallback could be implemented in the user file
-
-}*/
