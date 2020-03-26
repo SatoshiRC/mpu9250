@@ -1,97 +1,92 @@
-Src/main.o: ../Src/main.c \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Inc/main.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Inc/stm32f3xx_hal_conf.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Inc/main.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xc.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/CMSIS/Include/core_cm4.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/CMSIS/Include/core_cmInstr.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/CMSIS/Include/cmsis_gcc.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/CMSIS/Include/core_cmFunc.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/CMSIS/Include/core_cmSimd.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Inc/i2c.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Inc/tim.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Inc/gpio.h \
- C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Inc/wrapper.hpp
+Src/main.o: ../Src/main.c ../Inc/main.h \
+ ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h \
+ ../Inc/stm32f3xx_hal_conf.h ../Inc/main.h \
+ ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h \
+ ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h \
+ ../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h \
+ ../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xc.h \
+ ../Drivers/CMSIS/Include/core_cm4.h \
+ ../Drivers/CMSIS/Include/core_cmInstr.h \
+ ../Drivers/CMSIS/Include/cmsis_gcc.h \
+ ../Drivers/CMSIS/Include/core_cmFunc.h \
+ ../Drivers/CMSIS/Include/core_cmSimd.h \
+ ../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h \
+ ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h \
+ ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h \
+ ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h \
+ ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h \
+ ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h \
+ ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h \
+ ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h \
+ ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h \
+ ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h \
+ ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h \
+ ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h \
+ ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h \
+ ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h \
+ ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h ../Inc/i2c.h \
+ ../Inc/tim.h ../Inc/gpio.h ../Inc/wrapper.hpp
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Inc/main.h:
+../Inc/main.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h:
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Inc/stm32f3xx_hal_conf.h:
+../Inc/stm32f3xx_hal_conf.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Inc/main.h:
+../Inc/main.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h:
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h:
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h:
+../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xc.h:
+../Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f303xc.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/CMSIS/Include/core_cm4.h:
+../Drivers/CMSIS/Include/core_cm4.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/CMSIS/Include/core_cmInstr.h:
+../Drivers/CMSIS/Include/core_cmInstr.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/CMSIS/Include/cmsis_gcc.h:
+../Drivers/CMSIS/Include/cmsis_gcc.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/CMSIS/Include/core_cmFunc.h:
+../Drivers/CMSIS/Include/core_cmFunc.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/CMSIS/Include/core_cmSimd.h:
+../Drivers/CMSIS/Include/core_cmSimd.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h:
+../Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h:
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h:
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h:
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h:
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h:
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h:
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h:
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h:
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h:
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h:
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h:
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h:
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h:
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h:
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Inc/i2c.h:
+../Inc/i2c.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Inc/tim.h:
+../Inc/tim.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Inc/gpio.h:
+../Inc/gpio.h:
 
-C:/UserFile/club/2019/KOSEN-Robokon2019/program/gyro-test/Inc/wrapper.hpp:
+../Inc/wrapper.hpp:
